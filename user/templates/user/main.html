@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <div id="list-wrapper">
+        <ul id="users-list">
+        </ul>
+        <div id="btn-wrapper">
+            <button id="direct-button" onclick="directRegister()">등록 페이지로 돌아가기</button>
+        </div>
+    </div>
+<script src="{% static 'js/main.js' %}">
+</script>
+</body>
+</html>
