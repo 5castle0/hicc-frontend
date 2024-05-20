@@ -1,1 +1,0 @@
-# hicc-frontend
