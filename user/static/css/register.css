@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'WavvePADO-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'WavvePADO-Regular', sans-serif;
+}
+
+#register-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3a9a9;
+    min-width: 400px;
+    width: 60vw;
+    max-width: 550px;
+    height: 100%;
+    margin: 10vh 0;
+    padding: 50px 10px;
+    border-radius: 20px;
+}
+
+#register-inner-wrapper {
+    text-align: center;
+}
+
+input,
+textarea {
+    margin: 10px 5px;
+    border-radius: 7px;
+    border-width: 0;
+    font-family: 'WavvePADO-Regular', sans-serif;
+    font-size: 15px;
+}
+
+input {
+    height: 25px;
+    padding: 0 5px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+#introduction-wrapper *{
+    vertical-align: middle;
+}
+
+#register-button {
+    width: 60px;
+    height: 35px;
+    margin-top: 20px;
+    font-family: 'WavvePADO-Regular', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #ec6161;
+    border-radius: 7px;
+    border-width: 0;
+}
+
+#register-button:hover {
+    background-color: #973131;
+    cursor: pointer;
+}
