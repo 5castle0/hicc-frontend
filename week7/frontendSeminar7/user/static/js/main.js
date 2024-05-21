@@ -31,7 +31,7 @@ function displayUsers(users) {
     /*
         listItem.innerHTML = ????;
 
-        ? 부분 완성하기! 참고2 확인
+        ? 부분 완성하기! PPT 참고 확인
     */
 
         usersList.appendChild(listItem); // 요소 추가
