@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <button id="myButton">button</button>
+    <p id="counter">Click Count: 0</p>
+
+    <script>
+        // 요소 선택
+        const button = document.getElementById('myButton');
+        const counter = document.getElementById('counter');
+        
+        let clickCount = 0;
+
+        // 버튼 클릭 이벤트 핸들러 등록
+        button.addEventListener('click', function() {
+            clickCount++;
+            counter.textContent = 'Click Count: ' + clickCount; //추가 조건
+        });
+    </script>
+</body>
+</html>
